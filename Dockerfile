@@ -1,6 +1,6 @@
 FROM golang:latest
 
-WORKDIR ${GOPATH}/src/Docker_demo
+WORKDIR ${GOPATH}/src/golangDocker
 
 ADD . .
 
