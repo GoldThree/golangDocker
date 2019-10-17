@@ -1,3 +1,3 @@
-module github.com/GoldThree/golangDocker
+module golangDocker
 
 require github.com/gin-gonic/gin v1.4.0
