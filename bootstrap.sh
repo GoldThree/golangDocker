@@ -3,6 +3,7 @@
 # go version >= 1.11
 go version
 
+
 export GO111MODULE=on
 
 export GOPROXY=https://goproxy.cn
