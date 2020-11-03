@@ -1,10 +1,10 @@
 FROM golang:latest
 
-WORKDIR ${GOPATH}/src/golangDocker
+WORKDIR GoWorkSpace/src/golangDocker
 
 ADD . .
 
-RUN ${GOPATH}/src/golangDocker/build.sh
+RUN GoWorkSpace/src/golangDocker/build.sh
 
 EXPOSE 3000
 
